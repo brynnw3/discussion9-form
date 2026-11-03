@@ -1,0 +1,81 @@
+  /* Create an accessible color palette using var()function
+  /* https://www.w3schools.com/css/css3_variables.asp */
+
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  a {
+    margin: auto;
+    top: 200px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    width:70%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #0F0F0F;
+    background: #90D5FF;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+  .radio {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background: #575294; */
+    color: #0F0F0F;
+  }
+    
+  #name {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    color: #9B9A6D;
+  }
+
+  #message {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    resize: vertical;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid white;
+    margin: 10px;
+    /* width: 100%; */
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #245125;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  } 
+
+  #image {
+    width: 100%;
+  }
+
+  input[type="reset"] {
+  }
